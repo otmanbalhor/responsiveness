@@ -1,0 +1,38 @@
+body {
+    background-color: red;
+
+}
+
+
+@media (min-width: 480px) {
+    body {
+        background-color: green;
+    }
+
+    #medium {
+        width: 33.3%;
+    }
+
+    #small {
+        width: 66.6%;
+    }
+
+    #large {
+        width: 100%;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    body {
+        background-color: blue;
+    }
+
+    #global {
+
+        display: flex;
+    }
+    #small,#medium,#large{
+        width: 100%;
+    }
+}
